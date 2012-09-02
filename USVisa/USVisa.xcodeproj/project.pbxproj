@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1136851A156D7767002C1CED /* USVisa-icon-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 11368519156D7767002C1CED /* USVisa-icon-57x57.png */; };
+		1136851C156D7827002C1CED /* USVisa-icon-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1136851B156D7827002C1CED /* USVisa-icon-114x114.png */; };
+		11368523156EE8A4002C1CED /* USVisa-icon-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 11368522156EE8A4002C1CED /* USVisa-icon-512x512.png */; };
+		114B67B6156B6ADA0001C98A /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 114B67B5156B6ADA0001C98A /* libz.1.2.5.dylib */; };
+		114DAB751568263100FAEF8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114DAB741568263100FAEF8D /* UIKit.framework */; };
+		114DAB771568263100FAEF8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114DAB761568263100FAEF8D /* Foundation.framework */; };
+		114DAB791568263100FAEF8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114DAB781568263100FAEF8D /* CoreGraphics.framework */; };
+		114DAB7F1568263100FAEF8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 114DAB7D1568263100FAEF8D /* InfoPlist.strings */; };
+		114DAB811568263100FAEF8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 114DAB801568263100FAEF8D /* main.m */; };
+		114DAB851568263100FAEF8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 114DAB841568263100FAEF8D /* AppDelegate.m */; };
+		114DAB881568263100FAEF8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114DAB871568263100FAEF8D /* ViewController.m */; };
+		114DAB8B1568263100FAEF8D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114DAB891568263100FAEF8D /* ViewController.xib */; };
+		11CB567F15741750001FC320 /* BatchPDFParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CB567915741750001FC320 /* BatchPDFParser.m */; };
+		11CB568015741750001FC320 /* DirectDownloadDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CB567B15741750001FC320 /* DirectDownloadDelegate.m */; };
+		11CB568115741750001FC320 /* NSURLConnectionDirectDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CB567E15741750001FC320 /* NSURLConnectionDirectDownload.m */; };
+		11E9F6601570CBC200C92979 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E9F65F1570CBC200C92979 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11368519156D7767002C1CED /* USVisa-icon-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "USVisa-icon-57x57.png"; sourceTree = "<group>"; };
+		1136851B156D7827002C1CED /* USVisa-icon-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "USVisa-icon-114x114.png"; sourceTree = "<group>"; };
+		11368522156EE8A4002C1CED /* USVisa-icon-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "USVisa-icon-512x512.png"; sourceTree = "<group>"; };
+		114B67B5156B6ADA0001C98A /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		114DAB701568263100FAEF8D /* USVisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USVisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		114DAB741568263100FAEF8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		114DAB761568263100FAEF8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		114DAB781568263100FAEF8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		114DAB7C1568263100FAEF8D /* USVisa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "USVisa-Info.plist"; sourceTree = "<group>"; };
+		114DAB7E1568263100FAEF8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		114DAB801568263100FAEF8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		114DAB821568263100FAEF8D /* USVisa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "USVisa-Prefix.pch"; sourceTree = "<group>"; };
+		114DAB831568263100FAEF8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		114DAB841568263100FAEF8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		114DAB861568263100FAEF8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		114DAB871568263100FAEF8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		114DAB8A1568263100FAEF8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		11CB567815741750001FC320 /* BatchPDFParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchPDFParser.h; sourceTree = "<group>"; };
+		11CB567915741750001FC320 /* BatchPDFParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatchPDFParser.m; sourceTree = "<group>"; };
+		11CB567A15741750001FC320 /* DirectDownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectDownloadDelegate.h; sourceTree = "<group>"; };
+		11CB567B15741750001FC320 /* DirectDownloadDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectDownloadDelegate.m; sourceTree = "<group>"; };
+		11CB567C15741750001FC320 /* DirectDownloadViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectDownloadViewDelegate.h; sourceTree = "<group>"; };
+		11CB567D15741750001FC320 /* NSURLConnectionDirectDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLConnectionDirectDownload.h; sourceTree = "<group>"; };
+		11CB567E15741750001FC320 /* NSURLConnectionDirectDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLConnectionDirectDownload.m; sourceTree = "<group>"; };
+		11E9F65F1570CBC200C92979 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		114DAB6D1568263100FAEF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114B67B6156B6ADA0001C98A /* libz.1.2.5.dylib in Frameworks */,
+				114DAB751568263100FAEF8D /* UIKit.framework in Frameworks */,
+				114DAB771568263100FAEF8D /* Foundation.framework in Frameworks */,
+				114DAB791568263100FAEF8D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114DAB651568263100FAEF8D = {
+			isa = PBXGroup;
+			children = (
+				11368522156EE8A4002C1CED /* USVisa-icon-512x512.png */,
+				1136851B156D7827002C1CED /* USVisa-icon-114x114.png */,
+				11368519156D7767002C1CED /* USVisa-icon-57x57.png */,
+				11E9F65F1570CBC200C92979 /* Icon.png */,
+				114B67B5156B6ADA0001C98A /* libz.1.2.5.dylib */,
+				114DAB7A1568263100FAEF8D /* USVisa */,
+				114DAB731568263100FAEF8D /* Frameworks */,
+				114DAB711568263100FAEF8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		114DAB711568263100FAEF8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				114DAB701568263100FAEF8D /* USVisa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		114DAB731568263100FAEF8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				114DAB741568263100FAEF8D /* UIKit.framework */,
+				114DAB761568263100FAEF8D /* Foundation.framework */,
+				114DAB781568263100FAEF8D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		114DAB7A1568263100FAEF8D /* USVisa */ = {
+			isa = PBXGroup;
+			children = (
+				11CB567815741750001FC320 /* BatchPDFParser.h */,
+				11CB567915741750001FC320 /* BatchPDFParser.m */,
+				11CB567A15741750001FC320 /* DirectDownloadDelegate.h */,
+				11CB567B15741750001FC320 /* DirectDownloadDelegate.m */,
+				11CB567C15741750001FC320 /* DirectDownloadViewDelegate.h */,
+				11CB567D15741750001FC320 /* NSURLConnectionDirectDownload.h */,
+				11CB567E15741750001FC320 /* NSURLConnectionDirectDownload.m */,
+				114DAB831568263100FAEF8D /* AppDelegate.h */,
+				114DAB841568263100FAEF8D /* AppDelegate.m */,
+				114DAB861568263100FAEF8D /* ViewController.h */,
+				114DAB871568263100FAEF8D /* ViewController.m */,
+				114DAB891568263100FAEF8D /* ViewController.xib */,
+				114DAB7B1568263100FAEF8D /* Supporting Files */,
+			);
+			path = USVisa;
+			sourceTree = "<group>";
+		};
+		114DAB7B1568263100FAEF8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				114DAB7C1568263100FAEF8D /* USVisa-Info.plist */,
+				114DAB7D1568263100FAEF8D /* InfoPlist.strings */,
+				114DAB801568263100FAEF8D /* main.m */,
+				114DAB821568263100FAEF8D /* USVisa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		114DAB6F1568263100FAEF8D /* USVisa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114DAB8E1568263100FAEF8D /* Build configuration list for PBXNativeTarget "USVisa" */;
+			buildPhases = (
+				114DAB6C1568263100FAEF8D /* Sources */,
+				114DAB6D1568263100FAEF8D /* Frameworks */,
+				114DAB6E1568263100FAEF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USVisa;
+			productName = USVisa;
+			productReference = 114DAB701568263100FAEF8D /* USVisa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		114DAB671568263100FAEF8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Temenos;
+			};
+			buildConfigurationList = 114DAB6A1568263100FAEF8D /* Build configuration list for PBXProject "USVisa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 114DAB651568263100FAEF8D;
+			productRefGroup = 114DAB711568263100FAEF8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				114DAB6F1568263100FAEF8D /* USVisa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		114DAB6E1568263100FAEF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114DAB7F1568263100FAEF8D /* InfoPlist.strings in Resources */,
+				114DAB8B1568263100FAEF8D /* ViewController.xib in Resources */,
+				1136851A156D7767002C1CED /* USVisa-icon-57x57.png in Resources */,
+				1136851C156D7827002C1CED /* USVisa-icon-114x114.png in Resources */,
+				11368523156EE8A4002C1CED /* USVisa-icon-512x512.png in Resources */,
+				11E9F6601570CBC200C92979 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		114DAB6C1568263100FAEF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114DAB811568263100FAEF8D /* main.m in Sources */,
+				114DAB851568263100FAEF8D /* AppDelegate.m in Sources */,
+				114DAB881568263100FAEF8D /* ViewController.m in Sources */,
+				11CB567F15741750001FC320 /* BatchPDFParser.m in Sources */,
+				11CB568015741750001FC320 /* DirectDownloadDelegate.m in Sources */,
+				11CB568115741750001FC320 /* NSURLConnectionDirectDownload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		114DAB7D1568263100FAEF8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114DAB7E1568263100FAEF8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		114DAB891568263100FAEF8D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114DAB8A1568263100FAEF8D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		114DAB8C1568263100FAEF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		114DAB8D1568263100FAEF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		114DAB8F1568263100FAEF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_CURRENT_VERSION = "`";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "USVisa/USVisa-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "USVisa/USVisa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SHARED_PRECOMPS_DIR = build;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		114DAB901568263100FAEF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_CURRENT_VERSION = "`";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "USVisa/USVisa-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "USVisa/USVisa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SHARED_PRECOMPS_DIR = build;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114DAB6A1568263100FAEF8D /* Build configuration list for PBXProject "USVisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114DAB8C1568263100FAEF8D /* Debug */,
+				114DAB8D1568263100FAEF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114DAB8E1568263100FAEF8D /* Build configuration list for PBXNativeTarget "USVisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114DAB8F1568263100FAEF8D /* Debug */,
+				114DAB901568263100FAEF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 114DAB671568263100FAEF8D /* Project object */;
+}
