@@ -1,4 +1,1 @@
-usvisa-app
-==========
-
-US Visa App for iPhone
+This repository contains a project called "US Visa App for iPhone".
